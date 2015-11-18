@@ -1,4 +1,7 @@
 /* Base styles */
+body {
+	background-color: #000;
+}
 .player {
 	position: absolute;
 	height: 50px;
@@ -6,45 +9,70 @@
 	border-radius: 50px;
 }
 .defence {
-	background-color: red;
+	background-color: #FF9900;
 }
 .offence {
-	background-color: green;
+	background-color: #389944;
+}
+.ballCarrier {
+	background-color: #384D99;
 }
 .container {
 	width: 500px;
 	height: 400px;
 	margin: auto;
-	background-color: grey;
+	background-color: #FFF;
+	position: relative;
 }
-.container > div {
-	width: 100$;
-	height: 100%;
+.startButton {
+	padding: 15px;
+	line-height: 1;
+	border-radius: 10px;
+	background-color: #000;
+	color: #FFF;
+	position: absolute;
+	font-family: helvetica;
+	width: initial;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+	box-shadow: 3px 3px 10px #ADADAD;
+}
+.startButton:hover {
+	opacity: 0.7;
 }
 /* End of base styles */
 
 /* Scoring play styles*/
 #defence1 {
-
+	top: 50px;
+	left: 50px;
 }
 
 #defence2 {
-
+	top: 50px;
+	left: 225px;
 }
 
 #defence3 {
-
+	top: 50px;
+	left: 400px;
 }
 
 #offence1 {
-
+	top: 300px;
+	left: 50px;
 }
 
 #offence2 {
-
+	top: 300px;
+	left: 225px;
 }
 
 #offence3 {
-	
+	top: 300px;
+	left: 400px;
 }
 /* End of scroing play styles */
