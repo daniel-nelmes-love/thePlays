@@ -1,4 +1,8 @@
 $(document).ready(function() {
+	defenceColor = '#FF9900'
+	offenceColor = '#389944'
+	ballCarrier = '#384D99'
+
 	initialDelay = 50
 	$('body').append('<div class="container"></div>')
 	
@@ -18,9 +22,9 @@ function scoringPlay() {
 	$('#startScoringPlay').on('click', function() {
 		$(this).remove()
 		setTimeout(function() {
-			var playSpeed = 600
+			var playSpeed = 1200
 			setTimeout(function() {
-				$('#offence1').animate({'top': 250, 'left': 50}, playSpeed/2)
+				$('#offence1').animate({'top': 250, 'left': 50, backgroundColor:offenceColor}, playSpeed/2)
 			}, initialDelay)
 
 			setTimeout(function() {
