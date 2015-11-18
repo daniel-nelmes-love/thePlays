@@ -1,0 +1,50 @@
+/* Base styles */
+.player {
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+}
+.defence {
+	background-color: red;
+}
+.offence {
+	background-color: green;
+}
+.container {
+	width: 500px;
+	height: 400px;
+	margin: auto;
+	background-color: grey;
+}
+.container > div {
+	width: 100$;
+	height: 100%;
+}
+/* End of base styles */
+
+/* Scoring play styles*/
+#defence1 {
+
+}
+
+#defence2 {
+
+}
+
+#defence3 {
+
+}
+
+#offence1 {
+
+}
+
+#offence2 {
+
+}
+
+#offence3 {
+	
+}
+/* End of scroing play styles */
