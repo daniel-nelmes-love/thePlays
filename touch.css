@@ -24,7 +24,7 @@ body {
 	background-color: #FFF;
 	position: relative;
 }
-.startButton {
+.button {
 	padding: 15px;
 	line-height: 1;
 	border-radius: 10px;
@@ -43,6 +43,13 @@ body {
 .startButton:hover {
 	opacity: 0.7;
 }
+.ball {
+	position: absolute;
+	background-color: rgba(255,255,255,0);
+}
+#resetButton {
+	display: none;
+}
 /* End of base styles */
 
 /* Scoring play styles*/
@@ -53,7 +60,7 @@ body {
 
 #defence2 {
 	top: 50px;
-	left: 225px;
+	left: 230px;
 }
 
 #defence3 {
@@ -68,11 +75,15 @@ body {
 
 #offence2 {
 	top: 300px;
-	left: 225px;
+	left: 230px;
 }
 
 #offence3 {
 	top: 300px;
 	left: 400px;
+}
+.ball {
+	top: 303px;
+	left: 55px;
 }
 /* End of scroing play styles */
