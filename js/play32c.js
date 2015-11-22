@@ -26,7 +26,6 @@ function play32c() {
 		$('#startButton').hide()
 		runplay32c()
 	})
-
 	$('.play32cReset').on('click', function() {
 		resetViewerWindow()
 		setUpplay32c()

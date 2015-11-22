@@ -26,7 +26,6 @@ function play32b() {
 		$('#startButton').hide()
 		runplay32b()
 	})
-
 	$('.play32bReset').on('click', function() {
 		resetViewerWindow()
 		setUpplay32b()
@@ -35,13 +34,10 @@ function play32b() {
 }
 
 function runplay32b() {
-
-	console.log('32b')
 	var playThis = true
 	$('.selector').on('click', function() {
 		playThis = false
 	})
-
 	setTimeout(function() {
 		if (playThis) {$('#play32b').children().each(function(i) {animateThisThis(play32bPlay, i, 1)})};
 	}, 0)

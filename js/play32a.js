@@ -26,7 +26,6 @@ function play32a() {
 		$('#startButton').hide()
 		runplay32a()
 	})
-
 	$('.play32aReset').on('click', function() {
 		resetViewerWindow()
 		setUpplay32a()
@@ -35,12 +34,10 @@ function play32a() {
 }
 
 function runplay32a() {
-
 	var playThis = true
 	$('.selector').on('click', function() {
 		playThis = false
 	})
-
 	setTimeout(function() {
 		if (playThis) {$('#play32a').children().each(function(i) {animateThisThis(play32aPlay, i, 1)})};
 	}, 0)
