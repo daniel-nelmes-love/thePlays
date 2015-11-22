@@ -20,11 +20,11 @@ function setUpFirstTouch() {
 }
 
 function firstTouch() {
-	$('.firstTouchInit').on('click', function() {
+	$(document.body).on('click', '.firstTouchInit', function() {
 		$('#startButton').hide()
 		runfirstTouch()
 	})
-	$('.firstTouchReset').on('click', function() {
+	$(document.body).on('click', '.firstTouchReset', function() {
 		resetViewerWindow()
 		setUpFirstTouch()
 		setPositions(firstTouchPlay)

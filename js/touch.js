@@ -6,7 +6,7 @@ function resetViewerWindow() {
 			$(this).remove()
 		};
 	})
-	$('.viewerWindow')append('<div id="startButton" class="button">Start play!</div><div id="resetButton" class="button">Reset play</div>')
+	$('.viewerWindow').append('<div id="startButton" class="button">Start play!</div><div id="resetButton" class="button">Reset play</div>')
 }
 
 function buttonStats(play) {
