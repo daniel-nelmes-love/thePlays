@@ -16,9 +16,7 @@ function setUpplay32c() {
 	createPlayers('offence', play32cPlayers, 'play32c', play32cPositions)
 	createBall('play32c')
 	setPositions(play32cPlay)
-	
-	$('#startButton').attr('class', 'button play32cInit')
-	$('#resetButton').attr('class', 'button play32cReset')
+	buttonStats('play32c')
 }
 
 function play32c() {
@@ -30,6 +28,7 @@ function play32c() {
 		resetViewerWindow()
 		setUpplay32c()
 		setPositions(play32cPlay)
+		buttonStats('play32c')
 	})
 }
 

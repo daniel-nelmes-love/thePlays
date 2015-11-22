@@ -16,9 +16,7 @@ function setUpFirstTouch() {
 	createPlayers('offence', firstTouchPlayers, 'firstTouch', firstTouchPositions)
 	createBall('firstTouch')
 	setPositions(firstTouchPlay)
-	
-	$('#startButton').attr('class', 'button firstTouchInit')
-	$('#resetButton').attr('class', 'button firstTouchReset')
+	buttonStats('firstTouch')
 }
 
 function firstTouch() {
@@ -26,21 +24,19 @@ function firstTouch() {
 		$('#startButton').hide()
 		runfirstTouch()
 	})
-
 	$('.firstTouchReset').on('click', function() {
 		resetViewerWindow()
 		setUpFirstTouch()
 		setPositions(firstTouchPlay)
+		buttonStats('firstTouch')
 	})
 }
 
 function runfirstTouch() {
-
 	var playThis = true
 	$('.selector').on('click', function() {
 		playThis = false
 	})
-
 	setTimeout(function() {
 		if (playThis) {$('#firstTouch').children().each(function(i) {animateThisThis(firstTouchPlay, i, 1)})};
 	}, 0)
