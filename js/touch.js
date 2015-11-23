@@ -1,12 +1,8 @@
 function resetViewerWindow() {
-	$('#startButton').remove()
-	$('#resetButton').remove()
-	$('.viewerWindow').children().each(function() {
-		if (!$(this).hasClass('button')) {
-			$(this).remove()
-		};
-	})
-	$('.viewerWindow').append('<div id="startButton" class="button">Start play!</div><div id="resetButton" class="button">Reset play</div>')
+	$('.viewerWindow').children().remove()
+	$('.viewerWindow').append('<div id="startButton" class="button">Start play!</div>')
+	$('.viewerWindow').append('<div id="resetButton" class="button">Reset play</div>')
+	$('.viewerWindow').append('<div class="line"></div>')
 }
 
 function buttonStats(play) {

@@ -84,3 +84,7 @@ body {
 #ball {
 	position: absolute;
 }
+.line {
+	border-bottom: 10px red dashed;
+	margin-top: 90px;
+}
