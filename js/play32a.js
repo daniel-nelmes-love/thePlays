@@ -88,7 +88,7 @@ play32aPlay = [
 	{'top':'203px','left':'315px','speed':1200,'color':'rgba(255,255,255,0)'},
 	{'top':'243px','left':'315px','speed':1200,'color':'rgba(255,255,255,0)'},
 	{'top':'203px','left':'275px','speed':1200,'color':'rgba(255,255,255,0)'},
-	{'top':'203px','left':'135px','speed':1200,'color':'rgba(255,255,255,0)'},
+	{'top':'203px','left':'125px','speed':1200,'color':'rgba(255,255,255,0)'},
 	{'top':'3px','left':'205px','speed':1200,'color':'rgba(255,255,255,0)'}]}]
 play32aPlayers = 6
 play32aPositions = ['W', 'L', 'M', 'M', 'L', 'W']
