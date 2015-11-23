@@ -59,7 +59,7 @@ play32cPlay = [
 	{'top':'300px','left':'190px','speed':0,'color':'#389944'},
 	{'top':'300px','left':'190px','speed':1200,'color':'#389944'},
 	{'top':'300px','left':'190px','speed':1200,'color':'#389944'},
-	{'top':'200px','left':'130px','speed':1200,'color':'#389944'},
+	{'top':'200px','left':'120px','speed':1200,'color':'#389944'},
 	{'top':'160px','left':'210px','speed':1200,'color':'#389944'},
 	{'top':'160px','left':'210px','speed':1200,'color':'#389944'}]},
 {'id':'offence4','positions':[

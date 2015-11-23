@@ -59,8 +59,8 @@ play32aPlay = [
 	{'top':'300px','left':'190px','speed':0,'color':'#389944'},
 	{'top':'300px','left':'190px','speed':1200,'color':'#389944'},
 	{'top':'300px','left':'190px','speed':1200,'color':'#389944'},
-	{'top':'200px','left':'130px','speed':1200,'color':'#389944'},
-	{'top':'200px','left':'130px','speed':1200,'color':'#384D99'},
+	{'top':'200px','left':'120px','speed':1200,'color':'#389944'},
+	{'top':'200px','left':'120px','speed':1200,'color':'#384D99'},
 	{'top':'0px','left':'200px','speed':1200,'color':'#384D99'}]},
 {'id':'offence4','positions':[
 	{'top':'300px','left':'270px','speed':0,'color':'#384D99'},
